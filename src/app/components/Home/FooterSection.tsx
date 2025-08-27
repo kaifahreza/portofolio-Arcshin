@@ -5,7 +5,7 @@ import { IconBrandWhatsapp, IconMail, IconBrandInstagram, IconBrandLinkedin, Ico
 import { useState, useEffect } from 'react';
 
 export default function Footer() {
-    const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+    const [currentYear] = useState(new Date().getFullYear());
     const [isVisible, setIsVisible] = useState(false);
 
     const scrollToTop = () => {
@@ -84,7 +84,7 @@ export default function Footer() {
                         </Link>
                         <p className="text-gray-400 text-sm leading-relaxed mb-6">
                             Fullstack Developer & UI/UX Designer passionate about creating digital experiences that matter. 
-                            Let'&apos;s build something amazing together.
+                            Let&apos;s build something amazing together.
                         </p>
                         <div className="flex space-x-4">
                             {socialLinks.map((social, index) => {
