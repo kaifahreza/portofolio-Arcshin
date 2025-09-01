@@ -31,14 +31,14 @@ export default function AboutSection() {
         { name: 'HTML', src: '/assets/img/skill/html.png', level: 95, category: 'Markup', color: 'from-orange-500 to-red-500', position: { top: '10%', left: '15%' }, delay: 0 },
         { name: 'CSS', src: '/assets/img/skill/css.png', level: 92, category: 'Styling', color: 'from-blue-400 to-blue-600', position: { top: '25%', left: '5%' }, delay: 0.1 },
         { name: 'JavaScript', src: '/assets/img/skill/javascript.png', level: 88, category: 'Language', color: 'from-yellow-400 to-orange-500', position: { top: '40%', left: '10%' }, delay: 0.2 },
-        { name: 'React', src: '/assets/img/skill/react.png', level: 90, category: 'Frontend', color: 'from-cyan-400 to-blue-500', position: { top: '15%', left: '30%' }, delay: 0.3 },
-        { name: 'Next.js', src: '/assets/img/skill/nextjs.png', level: 85, category: 'Framework', color: 'from-gray-300 to-gray-600', position: { top: '30%', left: '25%' }, delay: 0.4 },
+        { name: 'React', src: '/assets/img/skill/react.png', level: 80, category: 'Frontend', color: 'from-cyan-400 to-blue-500', position: { top: '15%', left: '30%' }, delay: 0.3 },
+        { name: 'Next.js', src: '/assets/img/skill/nextjs.png', level: 55, category: 'Framework', color: 'from-gray-300 to-gray-600', position: { top: '30%', left: '25%' }, delay: 0.4 },
 
         // Backend
         { name: 'PHP', src: '/assets/img/skill/php.png', level: 85, category: 'Backend', color: 'from-purple-500 to-indigo-600', position: { top: '10%', right: '15%' }, delay: 0.5 },
         { name: 'Laravel', src: '/assets/img/skill/laravel.png', level: 82, category: 'Framework', color: 'from-red-400 to-red-600', position: { top: '25%', right: '5%' }, delay: 0.6 },
         { name: 'Node.js', src: '/assets/img/skill/nodejs.png', level: 78, category: 'Runtime', color: 'from-green-400 to-green-600', position: { top: '40%', right: '10%' }, delay: 0.7 },
-        { name: 'Express.js', src: '/assets/img/skill/expressjs.png', level: 75, category: 'Framework', color: 'from-gray-400 to-gray-700', position: { top: '15%', right: '30%' }, delay: 0.8 },
+        { name: 'Express.js', src: '/assets/img/skill/expressjs.png', level: 70, category: 'Framework', color: 'from-gray-400 to-gray-700', position: { top: '15%', right: '30%' }, delay: 0.8 },
 
         // Styling & Tools
         { name: 'Bootstrap', src: '/assets/img/skill/bootstrap.png', level: 88, category: 'Framework', color: 'from-purple-400 to-purple-600', position: { bottom: '15%', left: '10%' }, delay: 0.9 },
@@ -46,7 +46,7 @@ export default function AboutSection() {
         { name: 'MySQL', src: '/assets/img/skill/mysql.png', level: 80, category: 'Database', color: 'from-blue-500 to-indigo-600', position: { bottom: '10%', right: '10%' }, delay: 1.1 },
         { name: 'Figma', src: '/assets/img/skill/figma.png', level: 87, category: 'Design', color: 'from-purple-400 to-pink-500', position: { bottom: '25%', right: '25%' }, delay: 1.2 },
         { name: 'Git', src: '/assets/img/skill/git.png', level: 85, category: 'Tool', color: 'from-orange-600 to-red-700', position: { bottom: '30%', left: '5%' }, delay: 1.3 },
-        { name: 'MongoDB', src: '/assets/img/skill/mongodb.png', level: 70, category: 'Database', color: 'from-green-600 to-lime-700', position: { bottom: '10%', left: '30%' }, delay: 1.4 },
+        { name: 'MongoDB', src: '/assets/img/skill/mongodb.png', level: 50, category: 'Database', color: 'from-green-600 to-lime-700', position: { bottom: '10%', left: '30%' }, delay: 1.4 },
         { name: 'GitHub', src: '/assets/img/skill/github.png', level: 89, category: 'Version Control', color: 'from-gray-400 to-gray-600', position: { bottom: '23%', right: '5%' }, delay: 1.5 },
     ];
 
@@ -188,7 +188,7 @@ export default function AboutSection() {
                         
                         {/* Tech Summary */}
                         <div className="mt-6 p-4 bg-gray-900/50 rounded-lg border border-gray-800">
-                            <h3 className="text-white font-semibold mb-3">Complete Tech Stack</h3>
+                            <h3 className="text-white font-semibold mb-3">Tech Stack</h3>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
                                 <div>
                                     <div className="text-orange-400 font-medium mb-1">Frontend:</div>
