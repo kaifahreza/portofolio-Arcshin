@@ -31,41 +31,23 @@ const ProjectImage = ({ src, alt, ...props }: ProjectImageProps) => {
 
 const projects: Project[] = [
   {
-    title: 'Smart Greenhouse',
-    category: 'IoT Development',
+    title: 'Personal Portofolio',
+    category: 'Design & Development',
     image: '/assets/img/projects/project1.jpg',
     link: '#'
   },
   {
-    title: 'Wisata Gua Maiga',
-    category: 'Web Development',
+    title: 'Weater',
+    category: 'App & Development',
     image: '/assets/img/projects/project2.jpg',
     link: '#'
   },
   {
-    title: 'PPLK ITERA 2024',
-    category: 'UI/UX Design',
+    title: 'Ecommerce',
+    category: 'App & Development',
     image: '/assets/img/projects/project3.jpg',
     link: '#'
   },
-  {
-    title: 'E-Commerce App',
-    category: 'Mobile Development',
-    image: '/assets/img/projects/project4.jpg',
-    link: '#'
-  },
-  {
-    title: 'Dashboard Analytics',
-    category: 'Web Development',
-    image: '/assets/img/projects/project5.jpg',
-    link: '#'
-  },
-  {
-    title: 'Brand Identity',
-    category: 'Graphic Design',
-    image: '/assets/img/projects/project6.jpg',
-    link: '#'
-  }
 ];
 
 export default function ProjectMarquee() {

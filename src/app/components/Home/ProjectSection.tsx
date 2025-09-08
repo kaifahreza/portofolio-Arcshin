@@ -38,20 +38,20 @@ const projects: Project[] = [
   },
   {
     title: 'Weater',
-    category: 'App',
+    category: 'App & Development',
     image: '/assets/img/projects/project2.jpg',
     link: '#'
   },
   {
-    title: 'PPLK ITERA 2024',
-    category: 'Design & Development',
+    title: 'Ecommerce',
+    category: 'App & Development',
     image: '/assets/img/projects/project3.jpg',
     link: '#'
   },
   {
     title: 'Project Selanjutnya',
-    category: 'Design & Development',
-    image: '/assets/img/projects/project4.jpg',
+    category: 'Soon',
+    image: '/assets/img/projects/comingsoon.jpg',
     link: '#'
   },
 ];

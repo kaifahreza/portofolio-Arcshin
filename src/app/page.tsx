@@ -6,7 +6,6 @@ import Header from './components/Layout/Header';
 import AboutSection from './components/Home/AboutSection';
 import ProjectSection from './components/Home/ProjectSection';
 import ProjectMarquee from './components/Home/ProjectMarquee';
-import ContactSection from './components/Home/ContactSection';
 import FooterSection from './components/Home/FooterSection';
 import LoadingScreen from './components/LoadingScreen';
 
@@ -48,9 +47,6 @@ export default function HomePage() {
 
       {/* Project Marquee */}
       <ProjectMarquee />
-
-      {/* Contact Section */}
-      <ContactSection />
 
       {/* Footer Section */}
       <FooterSection />
