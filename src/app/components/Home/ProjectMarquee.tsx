@@ -4,29 +4,29 @@ import Image, { ImageProps } from 'next/image';
 import { useState } from 'react';
 
 interface Project {
-    title: string;
-    image: string;
-    category: string;
-    link?: string;
+  title: string;
+  image: string;
+  category: string;
+  link?: string;
 }
 
 interface ProjectImageProps extends Omit<ImageProps, 'src' | 'alt'> {
-    src: string;
-    alt: string;
+  src: string;
+  alt: string;
 }
 
 // Component untuk handle image error dengan type safety
 const ProjectImage = ({ src, alt, ...props }: ProjectImageProps) => {
-    const [imgSrc, setImgSrc] = useState(src);
-    
-    return (
-        <Image
-        {...props}
-        src={imgSrc}
-        alt={alt}
-        onError={() => setImgSrc('/assets/img/placeholder-project.jpg')}
-        />
-    );
+  const [imgSrc, setImgSrc] = useState(src);
+
+  return (
+    <Image
+      {...props}
+      src={imgSrc}
+      alt={alt}
+      onError={() => setImgSrc('/assets/img/placeholder-project.jpg')}
+    />
+  );
 };
 
 const projects: Project[] = [
@@ -70,11 +70,8 @@ export default function ProjectMarquee() {
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
                 />
-                
-                {/* Hover Overlay Effect */}
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-purple-600/20 to-pink-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 
                 {/* Subtle Shine Effect on Hover */}
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 transform -skew-x-12 translate-x-[-100%] group-hover:translate-x-[100%]" />
@@ -96,11 +93,8 @@ export default function ProjectMarquee() {
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
                 />
-                
-                {/* Hover Overlay Effect */}
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-pink-600/20 to-blue-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 
                 {/* Subtle Shine Effect on Hover */}
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 transform -skew-x-12 translate-x-[-100%] group-hover:translate-x-[100%]" />

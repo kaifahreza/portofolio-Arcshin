@@ -57,7 +57,7 @@ export default function Header() {
                             <IconUser className="w-4 h-4" />
                             About
                         </Link>
-                        <Link href="#" className="cursor-pointer flex items-center gap-1">
+                        <Link href="/Contact" className="cursor-pointer flex items-center gap-1">
                             <IconPhone className="w-4 h-4" />
                             Contact
                         </Link>
