@@ -192,7 +192,7 @@ export default function AboutSection() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
                                 <div>
                                     <div className="text-orange-400 font-medium mb-1">Frontend:</div>
-                                    <div className="text-gray-300 text-xs mb-2">React, Next.js</div>
+                                    <div className="text-gray-300 text-xs mb-2">Html, Css, Javascript, React, Next.js</div>
                                 </div>
                                 <div>
                                     <div className="text-purple-400 font-medium mb-1">Backend:</div>
